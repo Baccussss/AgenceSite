@@ -18,9 +18,9 @@
          <a href="#">Bac</a>
        </h2>
        <ul>
-         <li><a href="#">Nos offres</a></li>
-         <li><a href="#">Notre équipe</a></li>
-         <li><a href="#">Contact</a></li>
+         <li><a href="#offer">Nos offres</a></li>
+         <li><a href="#team">Notre équipe</a></li>
+         <li><a href="#contact">Contact</a></li>
        </ul>
      </header>
      <section class="vp">
@@ -33,7 +33,7 @@
           </p>
         </div>
       </section>
-      <section class="offer">
+      <section id="offer" class="offer">
         <div class="container">
           <h2 class="title">Nos dernières offres</h2>
           <ul class="offer-list">
@@ -67,8 +67,8 @@
           </ul>
         </div>
       </section>
-      <section class="who">
-         <div class="who-content-img"><img src="./images/team.jpg" alt="team"></div>
+      <section id="team" class="who">
+         <div class="who-content-img"></div>
          <div class="who-content-text bg-dark">
            <h2>Une équipe de streamers <strong>professionnels</strong> pour vous loger</h2>
            <p>
@@ -82,8 +82,90 @@
            </p>
          </div> 
       </section>
-     </div>
-     
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonials-content">
+            <h2 class="title">Ecoute ce qu'ils pensent de nous</h2>
+            <div class="testimonials-elem">
+              <div class="testimonials-elem-text">
+                <p>
+                  <i class="fa-solid fa-quote-left fa-xl"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+                  ea ad, nemo impedit asperiores debitis aliquam quae cumque suscipit 
+                  dolores, sapiente illo dolor? Ex doloremque quibusdam perferendis a.
+                  Magni, nam dignissimos nihil dolor in porro labore fuga eveniet pariatur
+                  necessitatibus repellendus ea nisi aut expedita. Qui nemo quasi repudiandae
+                  tenetur.
+                  <i class="fa-solid fa-quote-right fa-xl"></i>  
+                </p>
+              </div>
+              <div class="testimonials-elem-profil">
+                <img src="./images/guy.png" alt="person-1">
+                <p>Samuel Bader</p>
+                <em>CEO </em>
+              </div>
+            </div>
 
+            <div class="testimonials-elem testimonials-elem-reverse">
+              <div class="testimonials-elem-profil">
+                <img src="./images/tral.jpg" alt="person-2">
+                <p>Tralenyr</p>
+                <em>Inspecteur</em>
+              </div>
+              <div class="testimonials-elem-text">
+                
+                <p> 
+                  <i class="fa-solid fa-quote-left fa-xl"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Adipisci nobis ullam enim quo, perferendis quidem deserunt, 
+                  ab atque consectetur doloremque esse. Soluta ex ullam odio 
+                  praesentium quia labore nostrum voluptatum, porro incidunt facere
+                   quo officia et sit hic cupiditate aliquam nesciunt ad expedita 
+                   mollitia optio? Quibusdam quia libero ad minima!
+                   <i class="fa-solid fa-quote-right fa-xl"></i>
+                </p>
+                
+              </div>
+            </div>
+
+            <div class="testimonials-elem">
+              <div class="testimonials-elem-text">
+                <p>
+                  <i class="fa-solid fa-quote-left fa-xl"></i>
+                  Lorem ipsum dolor sit amet consectetur, 
+                  adipisicing elit. Omnis corrupti non quia
+                  qui quibusdam inventore, maxime obcaecati
+                  voluptatibus, officia assumenda explicabo 
+                  exercitationem? Accusantium aliquam nam eum, 
+                  repudiandae beatae officiis, dolor deleniti voluptates 
+                  architecto similique mollitia distinctio sunt ea at tempore 
+                  obcaecati vel unde quibusdam voluptatibus ducimus? Dolor in delectus natus.
+                  <i class="fa-solid fa-quote-right fa-xl"></i>                
+                </p>
+              </div>
+              <div class="testimonials-elem-profil">
+                <img src="./images/eliott.jpg" alt="person-3">
+                <p>Eliott Frechard</p>
+                <em>Apprenti</em>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact bg-dark">
+        <form action="#" class="contact-form">
+          <h2 class="title">Pour nous <strong>Contacter</strong></h2>
+          <input type="text" placeholder="Nom" name="name" id="name">
+          <input type="email" placeholder="Email" name="email" id="email">
+          <input type="text" placeholder="Votre message" name="message" id="message">
+          <div>
+          <button >Soumettre</button>
+          </div>
+
+        </form>
+      </section>
+      <footer>
+        <p>Copyright - 2022 Bac industry</p>
+      </footer>
   </body>
 </html>
